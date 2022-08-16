@@ -23,3 +23,7 @@ This is a skeleton template of a backend that is based on NodeJS and Apollo Serv
 2. On the root project, do `docker build . -t nrby/graphql`
 3. Then do `docker run -p <ENVPORT>:<ENVPORT> -d --name graphql nrby/graphql`
 4. Go to http://localhost:3000/graphql to test some query
+
+## For Relational database usage
+
+Included in this template also some installation for sequelize for easier handling of database queries. See https://sequelize.org/docs/v6/getting-started/ for more references about this.
